@@ -127,9 +127,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 h4.style.textAlign = 'center';
             }
             if (i > 3) {
-                recentProducts[i].sku += 'R1'
+                recentProducts[i].sku += 'R1';
                 if (i > 6) {
-                    recentProducts[i].sku += 'R2'
+                    recentProducts[i].sku += 'R2';
                 }
             }
             div = document.createElement("div");
